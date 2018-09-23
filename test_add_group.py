@@ -23,7 +23,6 @@ class TestAddGroup(unittest.TestCase):
         wd.find_element_by_name("user").click()
         wd.find_element_by_id("LoginForm").click()
         wd.find_element_by_name("pass").click()
-        wd.find_element_by_link_text("Create account").click()
         wd.find_element_by_name("pass").clear()
         wd.find_element_by_name("pass").send_keys("secret")
         wd.find_element_by_xpath("//input[@value='Login']").click()
@@ -31,8 +30,7 @@ class TestAddGroup(unittest.TestCase):
         wd.find_element_by_name("new").click()
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
-        wd.find_element_by_name("group_name").send_keys("fdsfgfd")
-        wd.find_element_by_name("group_header").click()
+        wd.find_element_by_name("group_name").send_keys("test1")
         wd.find_element_by_name("group_header").click()
         # ERROR: Caught exception [ERROR: Unsupported command [doubleClick | name=group_header | ]]
         wd.find_element_by_name("group_header").clear()

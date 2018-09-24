@@ -15,7 +15,11 @@ class TestAddContact(unittest.TestCase):
     def test_add_contact(self):
         wd = self.wd
         wd.get("http://localhost:441/addressbook/")
-        wd.find_element_by_xpath("//form[@id='LoginForm']/label").click()
+        wd.find_element_by_name("user").click()
+        wd.find_element_by_name("user").clear()
+        wd.find_element_by_name("user").send_keys('admin')
+        wd.find_element_by_name("pass").clear()
+        wd.find_element_by_name("pass").send_keys("secret")
         wd.find_element_by_xpath("//input[@value='Login']").click()
         wd.find_element_by_link_text("add new").click()
         wd.find_element_by_name("firstname").click()

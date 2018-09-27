@@ -4,7 +4,6 @@ from group import Group
 from appolication import Application
 
 
-
 @pytest.fixture
 def app (request):
     fixture = Application ()

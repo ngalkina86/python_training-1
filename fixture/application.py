@@ -11,6 +11,7 @@ class Application:
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)
+        self.wd.get("http://localhost:441/addressbook/")
 
     def open_home_page(self):
         wd = self.wd

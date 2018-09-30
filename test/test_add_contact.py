@@ -18,3 +18,4 @@ def test_add_other_contact(app):
     app.session.logout()
 
 
+

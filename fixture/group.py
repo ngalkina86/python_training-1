@@ -32,6 +32,7 @@ class GroupHelper:
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
 
+
     def delete_first_group(self):
             wd = self.app.wd
             self.open_group_page()

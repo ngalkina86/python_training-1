@@ -6,6 +6,11 @@ class ContactHelper:
     def __init__(self, app):
         self.app = app
 
+    def count(self):
+            wd = self.app.wd
+            self.app.return_to_home_page()
+            return len(wd.find_elements_by_name("selected[]"))
+
 
     def delete_first_contact(self):
         wd = self.app.wd

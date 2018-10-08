@@ -3,6 +3,7 @@ class GroupHelper:
     def __init__(self, app):
         self.app = app
 
+
     def count(self):
             wd = self.app.wd
             self.open_group_page()
@@ -47,21 +48,14 @@ class GroupHelper:
             wd = self.app.wd
             wd.find_element_by_name("selected[]").click()
 
-    def edit_first_group(self):
+    def edit_first_group(self, new_group_data):
             wd = self.app.wd
             self.open_group_page()
-            wd.find_element_by_link_text("groups").click()
-            wd.find_element_by_name("selected[]").click()
-            wd.find_element_by_xpath("(//input[@name='edit'])[2]").click()
-            wd.find_element_by_name("group_name").click()
-            wd.find_element_by_name("group_name").clear()
-            wd.find_element_by_name("group_name").send_keys("test")
-            wd.find_element_by_name("group_header").click()
-            wd.find_element_by_name("group_header").clear()
-            wd.find_element_by_name("group_header").send_keys("test2")
-            wd.find_element_by_name("group_footer").click()
-            wd.find_element_by_name("group_footer").clear()
-            wd.find_element_by_name("group_footer").send_keys("see")
+            self.select_first_group()
+            # open modification form
+            wd.find_element_by_name("edit").click()
+            # fill group form
+            self.fill_group_form(new_group_data)
             # submit edition
             wd.find_element_by_name("update").click()
             self.return_to_group_page()

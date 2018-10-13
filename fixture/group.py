@@ -16,7 +16,7 @@ class GroupHelper:
                 text = element.text
                 id = element.find_element_by_name("selected[]").get_attribute ("value")
                 self.group_cache.append(Group(name = text, id = id))
-            return list(self.group_cache)
+        return list(self.group_cache)
 
     def count(self):
             wd = self.app.wd
@@ -37,6 +37,7 @@ class GroupHelper:
             wd.find_element_by_name("submit").click()
             self.return_to_group_page()
             self.group_cache = None
+
 
 
     def fill_group_form(self, group):
@@ -62,6 +63,7 @@ class GroupHelper:
             self.group_cache = None
 
 
+
     def select_first_group(self):
             wd = self.app.wd
             wd.find_element_by_name("selected[]").click()
@@ -79,6 +81,7 @@ class GroupHelper:
             self.return_to_group_page()
             self.group_cache = None
 
+
     def modify_first_group(self,new_group_data):
             wd = self.app.wd
             self.open_group_page()
@@ -91,6 +94,7 @@ class GroupHelper:
             wd.find_element_by_name("update").click()
             self.return_to_group_page()
             self.group_cache = None
+
 
     def open_group_page(self):
             wd = self.app.wd

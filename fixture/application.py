@@ -19,7 +19,7 @@ class Application:
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)
         self.base_url = base_url
-        self.wd.get("http://localhost:441/addressbook/")
+        self.wd.get(base_url)
 
     def is_valid(self):
         try:

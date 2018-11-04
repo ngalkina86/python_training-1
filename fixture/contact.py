@@ -90,6 +90,18 @@ class ContactHelper:
         wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
         self.contact_cache = None
 
+    def modify_contact_by_id(self,id, new_contact_data):
+        wd = self.app.wd
+        self.app.return_to_home_page()
+        self.select_contact_by_id(id)
+        # open modification form
+        wd.find_element_by_xpath('//a[@href="edit.php?id=%s"]' % id).click()
+        # fill contact form
+        self.fill_contact_form(new_contact_data)
+        # submit modification
+        wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
+        self.contact_cache = None
+
 
     def delete_first_contact(self):
         self.delete_contact_by_index(0)
@@ -103,11 +115,25 @@ class ContactHelper:
         wd.switch_to_alert().accept()
         self.contact_cache = None
 
+    def delete_contact_by_id(self,id):
+        wd = self.app.wd
+        self.app.return_to_home_page()
+        self.select_contact_by_id(id)
+        # submit deletion
+        wd.find_element_by_xpath("//input[@value='Delete']").click()
+        wd.switch_to_alert().accept()
+        self.contact_cache = None
+
 
 
     def select_contact_by_index(self,index):
         wd = self.app.wd
         wd.find_elements_by_name("selected[]")[index].click()
+
+
+    def select_contact_by_id(self,id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("input[value = '%s']" % id ).click()
 
     def select_first_contact(self):
         wd = self.app.wd

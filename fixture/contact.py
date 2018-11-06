@@ -9,6 +9,15 @@ class ContactHelper:
 
     contact_cache = None
 
+    def add_contact_in_group(self,id,group_name):
+        wd = self.app.wd
+        self.app.return_to_home_page()
+        self.select_contact_by_id(id)
+        self.select_field("to_group",group_name)
+        wd.find_element_by_name("add").click()
+        self.contact_cache = None
+
+
     def get_contact_from_view_page(self,index):
         wd = self.app.wd
         self.open_contact_view_by_index(index)
@@ -199,3 +208,4 @@ class ContactHelper:
             wd.find_element_by_name(field_name).click()
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
+

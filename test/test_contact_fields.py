@@ -43,3 +43,4 @@ def merge_emails_like_on_home_page(contact):
                             map(lambda x: x.strip(),
                                 filter(lambda x: x is not None,
                                        [contact.email, contact.email2, contact.email3]))))
+

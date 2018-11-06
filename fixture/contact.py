@@ -9,9 +9,19 @@ class ContactHelper:
 
     contact_cache = None
 
+    def remove_contact_from_group(self,id,group_name):
+        wd = self.app.wd
+        self.app.return_to_home_page()
+        self.select_field("group",group_name)
+        self.select_contact_by_id(id)
+        wd.find_element_by_name("remove").click()
+        self.contact_cache = None
+
+
     def add_contact_in_group(self,id,group_name):
         wd = self.app.wd
         self.app.return_to_home_page()
+        wd.find_element_by_id("logo").click()
         self.select_contact_by_id(id)
         self.select_field("to_group",group_name)
         wd.find_element_by_name("add").click()

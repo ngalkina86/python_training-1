@@ -4,6 +4,7 @@ from fixture.group import GroupHelper
 from fixture.contact import ContactHelper
 
 
+
 class Application:
     def __init__(self, browser,base_url):
         if browser == "firefox":
@@ -34,7 +35,7 @@ class Application:
 
     def return_to_home_page(self):
         wd = self.wd
-        if not (wd.current_url.endswith('addressbook') and len(wd.find_elements_by_name("MainForm")) > 0):
+        if not (wd.current_url.endswith('manage_overview_page') and len(wd.find_elements_by_name("MainForm")) > 0):
            wd.find_element_by_link_text("home").click()
 
     def destroy (self):

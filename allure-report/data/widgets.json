@@ -3,17 +3,17 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 1,
-        "passed" : 1,
+        "total" : 6,
+        "passed" : 6,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1543521714661,
-        "stop" : 1543521738343,
-        "duration" : 23682
+        "start" : 1543523898126,
+        "stop" : 1543523931814,
+        "duration" : 33688
       }
     },
     "defects" : {
@@ -23,11 +23,11 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "f544ed955be4ff5f",
+        "uid" : "4a408e16a1b7dc9f",
         "title" : "Test",
         "statistic" : {
-          "total" : 1,
-          "passed" : 1,
+          "total" : 6,
+          "passed" : 6,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
@@ -40,8 +40,8 @@
       "items" : [ {
         "title" : "Without feature",
         "statistic" : {
-          "total" : 1,
-          "passed" : 1,
+          "total" : 6,
+          "passed" : 6,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,

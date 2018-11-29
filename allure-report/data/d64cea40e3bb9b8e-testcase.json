@@ -1,0 +1,95 @@
+{
+  "uid" : "d64cea40e3bb9b8e",
+  "name" : "test_add_group.test_add_group[None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'<Zu]}<N6]",
+  "title" : "Test add group [None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'<Zu]}<N6]",
+  "time" : {
+    "start" : 1543523923709,
+    "stop" : 1543523925897,
+    "duration" : 2188
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4a408e16a1b7dc9f",
+    "name" : "test",
+    "title" : "Test"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1543523923860,
+      "stop" : 1543523923870,
+      "duration" : 10
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'<Zu]}<N6 to the list",
+    "title" : "When I add a group None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'<Zu]}<N6 to the list",
+    "time" : {
+      "start" : 1543523923870,
+      "stop" : 1543523925877,
+      "duration" : 2007
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to theold list with the added group",
+    "title" : "Then the new group list is equal to theold list with the added group",
+    "time" : {
+      "start" : 1543523925877,
+      "stop" : 1543523925897,
+      "duration" : 20
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "home-laptop"
+  }, {
+    "name" : "suite-name",
+    "value" : "test"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7900-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

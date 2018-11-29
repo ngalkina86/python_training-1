@@ -1,0 +1,95 @@
+{
+  "uid" : "1062feb220a12e2b",
+  "name" : "test_add_group.test_add_group[None:nameUc;header*4&k;;footer\\\\]",
+  "title" : "Test add group [None:nameUc;header*4&k;;footer\\\\]",
+  "time" : {
+    "start" : 1543523921677,
+    "stop" : 1543523923699,
+    "duration" : 2022
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4a408e16a1b7dc9f",
+    "name" : "test",
+    "title" : "Test"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1543523921907,
+      "stop" : 1543523921907,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:nameUc;header*4&k;;footer\\ to the list",
+    "title" : "When I add a group None:nameUc;header*4&k;;footer\\ to the list",
+    "time" : {
+      "start" : 1543523921907,
+      "stop" : 1543523923689,
+      "duration" : 1782
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to theold list with the added group",
+    "title" : "Then the new group list is equal to theold list with the added group",
+    "time" : {
+      "start" : 1543523923689,
+      "stop" : 1543523923699,
+      "duration" : 10
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "home-laptop"
+  }, {
+    "name" : "suite-name",
+    "value" : "test"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7900-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

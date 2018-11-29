@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "home-laptop",
+    "threads" : [ {
+      "title" : "308-MainThread",
+      "testCases" : [ {
+        "uid" : "23eb8659a4231b8e",
+        "name" : "test_add_group.test_add_group",
+        "title" : "Test add group",
+        "time" : {
+          "start" : 1543521714661,
+          "stop" : 1543521738343,
+          "duration" : 23682
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

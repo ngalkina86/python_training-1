@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1543521714661,
+    "stop" : 1543521738343,
+    "duration" : 23682
+  },
+  "testSuites" : [ {
+    "uid" : "f544ed955be4ff5f",
+    "name" : "test",
+    "title" : "Test",
+    "time" : {
+      "start" : 1543521714661,
+      "stop" : 1543521738343,
+      "duration" : 23682
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "23eb8659a4231b8e",
+      "name" : "test_add_group.test_add_group",
+      "title" : "Test add group",
+      "time" : {
+        "start" : 1543521714661,
+        "stop" : 1543521738343,
+        "duration" : 23682
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

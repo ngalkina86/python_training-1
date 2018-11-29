@@ -1,0 +1,50 @@
+{
+  "uid" : "c5b9b11ec8c41427",
+  "name" : "test_add_contact.test_add_contact[None:firstnamei5j3:lastname=y3`;middlename9gp90E7;nickname;titlee$cc~T+Pe4FAp;companytn!g1#1t<iU;address\\\\`6n;homeA`\\\\HFR#X9;emaildxl'k}n/8Z)G;adress_2M?36;phone_2Kx/J/nX6]",
+  "title" : "Test add contact [None:firstnamei5j3:lastname=y3`;middlename9gp90E7;nickname;titlee$cc~T+Pe4FAp;companytn!g1#1t<iU;address\\\\`6n;homeA`\\\\HFR#X9;emaildxl'k}n/8Z)G;adress_2M?36;phone_2Kx/J/nX6]",
+  "time" : {
+    "start" : 1543524658539,
+    "stop" : 1543524671688,
+    "duration" : 13149
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8637cadcc93cf1c",
+    "name" : "test",
+    "title" : "Test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "21416-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "home-laptop"
+  }, {
+    "name" : "suite-name",
+    "value" : "test"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

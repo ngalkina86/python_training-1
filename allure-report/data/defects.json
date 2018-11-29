@@ -2,7 +2,25 @@
   "defectsList" : [ {
     "title" : "Product defects",
     "status" : "FAILED",
-    "defects" : [ ]
+    "defects" : [ {
+      "uid" : "48f0e25c7e0aa4cc",
+      "failure" : {
+        "message" : "AttributeError: 'NoneType' object has no attribute 'group'",
+        "stackTrace" : "app = <fixture.application.Application object at 0x000002494220B710>\n\n    def test_phones_on_contact_view_page(app):\n>       contact_from_view_page = app.contact.get_contact_from_view_page(0)\n\ntest\\test_phone.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <fixture.contact.ContactHelper object at 0x000002494220B780>, index = 0\n\n    def get_contact_from_view_page(self,index):\n        wd = self.app.wd\n        self.open_contact_view_by_index(index)\n        text = wd.find_element_by_id (\"content\").text\n>       homephone = re.search(\"H: (.*)\",text).group(1)\nE       AttributeError: 'NoneType' object has no attribute 'group'\n\nfixture\\contact.py:35: AttributeError"
+      },
+      "testCases" : [ {
+        "uid" : "fc5a4addbcc96a42",
+        "name" : "test_phone.test_phones_on_contact_view_page",
+        "title" : "Test phones on contact view page",
+        "time" : {
+          "start" : 1543524897325,
+          "stop" : 1543524901989,
+          "duration" : 4664
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
   }, {
     "title" : "Test defects",
     "status" : "BROKEN",

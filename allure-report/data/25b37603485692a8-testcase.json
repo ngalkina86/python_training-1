@@ -1,0 +1,95 @@
+{
+  "uid" : "25b37603485692a8",
+  "name" : "test_add_group.test_add_group[None:name}GP+^!\";header$|h'PE$*ke3D2|7#sp;footer.s\\\\al]",
+  "title" : "Test add group [None:name}GP+^!\";header$|h'PE$*ke3D2|7#sp;footer.s\\\\al]",
+  "time" : {
+    "start" : 1543524734219,
+    "stop" : 1543524737738,
+    "duration" : 3519
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "8637cadcc93cf1c",
+    "name" : "test",
+    "title" : "Test"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1543524734746,
+      "stop" : 1543524734798,
+      "duration" : 52
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:name}GP+^!\";header$|h'PE$*ke3D2|7#sp;footer.s\\al to the list",
+    "title" : "When I add a group None:name}GP+^!\";header$|h'PE$*ke3D2|7#sp;footer.s\\al to the list",
+    "time" : {
+      "start" : 1543524734798,
+      "stop" : 1543524737709,
+      "duration" : 2911
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to theold list with the added group",
+    "title" : "Then the new group list is equal to theold list with the added group",
+    "time" : {
+      "start" : 1543524737709,
+      "stop" : 1543524737736,
+      "duration" : 27
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "21416-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "home-laptop"
+  }, {
+    "name" : "suite-name",
+    "value" : "test"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,417 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1543524610092" stop="1543524901989">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1543524610092" status="passed" stop="1543524647450">
+      <name>test_add_contact.test_add_contact[None::;;;;;;;;;]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524647460" status="passed" stop="1543524658529">
+      <name>test_add_contact.test_add_contact[None:firstnameR:lastname4]i;middlename#YL}/r5[;nicknamenP;title%B!@rcW[;companytxffLq6K;addressjZtf4w'HkffUS[;homeI&lt;q^.:YCDGC&amp;\\;email;adress_2tZBpxM_;phone_2]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524658539" status="passed" stop="1543524671688">
+      <name>test_add_contact.test_add_contact[None:firstnamei5j3:lastname=y3`;middlename9gp90E7;nickname;titlee$cc~T+Pe4FAp;companytn!g1#1t&lt;iU;address\\`6n;homeA`\\HFR#X9;emaildxl'k}n/8Z)G;adress_2M?36;phone_2Kx/J/nX6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524671748" status="passed" stop="1543524685371">
+      <name>test_add_contact.test_add_contact[None:firstname$:lastnamei,';middlename|"/!@)`Rv;nickname9H?Ql]5&amp;s4%aYH;titlevk}$X[HCE;company&amp;KqT)I;addressETrXtNgv;home,8H~vLx&amp;G;emaild=or0,r[D3;adress_2S]]J;phone_2Zqr_~V]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524685376" status="passed" stop="1543524697814">
+      <name>test_add_contact.test_add_contact[None:firstname:lastname?e}I;middlenamenJD1ffgCl;nickname{H)'lZm~i8u%YG;titlenig;company\\Q?Aat;addressM|F%T{;home;emailF0fs#}*;adress_2?+~O;phone_2h!0]3H.5(w?]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524697824" status="passed" stop="1543524710428">
+      <name>test_add_contact.test_add_contact[None:firstnameY')!t:lastnamen%,@3@;middlenamevJ&amp;e0q\\'^-&gt;\\c;nicknameo;title,!/5H;company}%Ho4&amp;9#;address&lt;iSi;homew)&gt;h^EO;emailtJ}~vkRYSl@E3\\;adress_2{-hdI;phone_22+5RP2HVD.y]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524710451" status="passed" stop="1543524714043">
+      <name>test_add_contact_in_group.test_add_contact_in_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524714048" status="passed" stop="1543524722440">
+      <name>test_add_group.test_add_group[None:;;]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543524714385" status="passed" stop="1543524714388">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524714388" status="passed" stop="1543524722429">
+          <name>When I add a group None:;; to the list</name>
+          <title>When I add a group None:;; to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524722429" status="passed" stop="1543524722438">
+          <name>Then the new group list is equal to theold list with the added group</name>
+          <title>Then the new group list is equal to theold list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543524722455" status="passed" stop="1543524725135">
+      <name>test_add_group.test_add_group[None:nameUc;header*4&amp;k;;footer\\]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543524722785" status="passed" stop="1543524722788">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524722788" status="passed" stop="1543524725122">
+          <name>When I add a group None:nameUc;header*4&amp;k;;footer\ to the list</name>
+          <title>When I add a group None:nameUc;header*4&amp;k;;footer\ to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524725123" status="passed" stop="1543524725133">
+          <name>Then the new group list is equal to theold list with the added group</name>
+          <title>Then the new group list is equal to theold list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543524725139" status="passed" stop="1543524728098">
+      <name>test_add_group.test_add_group[None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'&lt;Zu]}&lt;N6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543524725403" status="passed" stop="1543524725407">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524725407" status="passed" stop="1543524728081">
+          <name>When I add a group None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'&lt;Zu]}&lt;N6 to the list</name>
+          <title>When I add a group None:nameoIEn+_EFa;headerff2gzXr}7a,n:/}FlK;footerscC!)Y[l9'&lt;Zu]}&lt;N6 to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524728081" status="passed" stop="1543524728097">
+          <name>Then the new group list is equal to theold list with the added group</name>
+          <title>Then the new group list is equal to theold list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543524728126" status="passed" stop="1543524731377">
+      <name>test_add_group.test_add_group[None:name&gt;UsBf5Tr;headerf$1F;footerw}@MD`@/6]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543524728610" status="passed" stop="1543524728623">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524728623" status="passed" stop="1543524731346">
+          <name>When I add a group None:name&gt;UsBf5Tr;headerf$1F;footerw}@MD`@/6 to the list</name>
+          <title>When I add a group None:name&gt;UsBf5Tr;headerf$1F;footerw}@MD`@/6 to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524731347" status="passed" stop="1543524731376">
+          <name>Then the new group list is equal to theold list with the added group</name>
+          <title>Then the new group list is equal to theold list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543524731390" status="passed" stop="1543524734214">
+      <name>test_add_group.test_add_group[None:nametODWD;headerR)bm#&gt;{$QUn~$ohf;footerKne,g&lt;AM:]]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543524731827" status="passed" stop="1543524731830">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524731830" status="passed" stop="1543524734194">
+          <name>When I add a group None:nametODWD;headerR)bm#&gt;{$QUn~$ohf;footerKne,g&lt;AM:] to the list</name>
+          <title>When I add a group None:nametODWD;headerR)bm#&gt;{$QUn~$ohf;footerKne,g&lt;AM:] to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524734194" status="passed" stop="1543524734212">
+          <name>Then the new group list is equal to theold list with the added group</name>
+          <title>Then the new group list is equal to theold list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543524734219" status="passed" stop="1543524737738">
+      <name>test_add_group.test_add_group[None:name}GP+^!";header$|h'PE$*ke3D2|7#sp;footer.s\\al]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1543524734746" status="passed" stop="1543524734798">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524734798" status="passed" stop="1543524737709">
+          <name>When I add a group None:name}GP+^!";header$|h'PE$*ke3D2|7#sp;footer.s\al to the list</name>
+          <title>When I add a group None:name}GP+^!";header$|h'PE$*ke3D2|7#sp;footer.s\al to the list</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1543524737709" status="passed" stop="1543524737736">
+          <name>Then the new group list is equal to theold list with the added group</name>
+          <title>Then the new group list is equal to theold list with the added group</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1543524737743" status="passed" stop="1543524756977">
+      <name>test_contact_fields.test_contact_fields_on_home_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524756979" status="passed" stop="1543524763629">
+      <name>test_db_matches_ui.test_group_list</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524763632" status="passed" stop="1543524766658">
+      <name>test_del_contact.test_del_some_contact</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524766666" status="passed" stop="1543524768833">
+      <name>test_del_group.test_delete_some_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524768848" status="passed" stop="1543524828449">
+      <name>test_edit_contact.test_edit_first_contact</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524828451" status="passed" stop="1543524845070">
+      <name>test_edit_group.test_edit_group</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524845074" status="passed" stop="1543524849030">
+      <name>test_modify_contact.test_modify_contact_firstname</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524849040" status="passed" stop="1543524852965">
+      <name>test_modify_group.test_modify_group_name</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524852972" status="passed" stop="1543524897321">
+      <name>test_phone.test_phones_on_home_page</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1543524897325" status="failed" stop="1543524901989">
+      <name>test_phone.test_phones_on_contact_view_page</name>
+      <failure>
+        <message>AttributeError: 'NoneType' object has no attribute 'group'</message>
+        <stack-trace>app = &lt;fixture.application.Application object at 0x000002494220B710&gt;
+
+    def test_phones_on_contact_view_page(app):
+&gt;       contact_from_view_page = app.contact.get_contact_from_view_page(0)
+
+test\test_phone.py:10: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;fixture.contact.ContactHelper object at 0x000002494220B780&gt;, index = 0
+
+    def get_contact_from_view_page(self,index):
+        wd = self.app.wd
+        self.open_contact_view_by_index(index)
+        text = wd.find_element_by_id ("content").text
+&gt;       homephone = re.search("H: (.*)",text).group(1)
+E       AttributeError: 'NoneType' object has no attribute 'group'
+
+fixture\contact.py:35: AttributeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21416-MainThread"/>
+        <label name="host" value="home-laptop"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

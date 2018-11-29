@@ -3,34 +3,39 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 6,
-        "passed" : 6,
+        "total" : 23,
+        "passed" : 22,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       },
       "time" : {
-        "start" : 1543523898126,
-        "stop" : 1543523931814,
-        "duration" : 33688
+        "start" : 1543524610092,
+        "stop" : 1543524901989,
+        "duration" : 291897
       }
     },
     "defects" : {
-      "totalCount" : 0,
-      "items" : [ ]
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "48f0e25c7e0aa4cc",
+        "message" : "AttributeError: 'NoneType' object has no attribute 'group'",
+        "status" : "FAILED"
+      } ]
     },
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "4a408e16a1b7dc9f",
+        "uid" : "8637cadcc93cf1c",
         "title" : "Test",
         "statistic" : {
-          "total" : 6,
-          "passed" : 6,
+          "total" : 23,
+          "passed" : 22,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 0,
+          "failed" : 1,
           "broken" : 0
         }
       } ]
@@ -40,11 +45,11 @@
       "items" : [ {
         "title" : "Without feature",
         "statistic" : {
-          "total" : 6,
-          "passed" : 6,
+          "total" : 23,
+          "passed" : 22,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 0,
+          "failed" : 1,
           "broken" : 0
         }
       } ]
